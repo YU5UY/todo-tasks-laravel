@@ -8,13 +8,13 @@ use Illuminate\Http\Request;
 use App\Http\Requests\AddTaskRequest;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
-use App\Traits\DirectionSiteTrait;
+use App\Traits\directionSiteTrait;
 use Illuminate\Support\Facades\Hash;
 
 class UserTasksController extends Controller
 {
     //
-    use DirectionSiteTrait;
+    use directionSiteTrait;
 
     public function __construct()
     {

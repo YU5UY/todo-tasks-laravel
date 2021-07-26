@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Traits\DirectionSiteTrait;
+use App\Traits\directionSiteTrait;
 
 
 class landingController extends Controller

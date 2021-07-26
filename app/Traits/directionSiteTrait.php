@@ -6,7 +6,7 @@ use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 /**
  * Trait for site Direction
  */
-Trait DirectionSiteTrait
+Trait directionSiteTrait
 {
     public static function getDirection(){
         $local = LaravelLocalization::getCurrentLocale();
