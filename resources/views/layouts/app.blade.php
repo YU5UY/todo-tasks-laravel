@@ -108,6 +108,11 @@
             @yield('content')
         </main>
     </div>
+    <footer>
+        <div class="text-center p-2">
+            <a href="https://t.me/yu5uy" target="_blank" class="nav-link text-info">{{__("messages.creator")}} <span class="text-danger">&hearts;</span></a>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
@@ -115,6 +120,7 @@
     </script>
     <script src="{{ asset('js/app.js') }}" defer></script>
     @yield("hidden-inputs")
+
 </body>
 
 </html>

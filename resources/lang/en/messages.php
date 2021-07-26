@@ -56,5 +56,6 @@ return [
     "share_link" => "Share your link with your friends",
     "done" => "Done" ,
     "private_tasks" => "This user prefer to keep his tasks private",
+    "creator" => "Code by @YU5UY",
 
 ];
