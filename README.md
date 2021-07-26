@@ -2,5 +2,5 @@
 ### my first laravel project with ajax
 *Created by https://t.me/yu5uy*
 
-run this code for migrate the database :
+run this on cmd for migrate the database :
 `php artisan migrate`
