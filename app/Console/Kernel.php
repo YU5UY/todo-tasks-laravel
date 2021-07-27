@@ -25,7 +25,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('Users:resetTasks')->dailyAt("12:00AM");
+        $schedule->command('Users:resetTasks')->everyMinute();
     }
 
     /**
